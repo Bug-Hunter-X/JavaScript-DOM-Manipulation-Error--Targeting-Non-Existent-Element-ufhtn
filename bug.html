@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+  <script>
+    // Incorrectly attempting to change the display property of a non-existent element
+    document.getElementById("myDiv2").style.display = "none"; 
+  </script>
+</body>
+</html>
